@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
 }
-:root{
-  --color-net : #1EBFC1;
+:root {
+  --color-net: #1ebfc1;
 }
 html {
   font-size: 62.5%;
@@ -33,7 +33,7 @@ a {
   line-height: 1.16; /* 116.129% */
 }
 .heading-lv2 {
-  color: #0D1111;
+  color: #0d1111;
   font-size: 4.2rem;
   font-weight: 700;
 }
@@ -303,51 +303,143 @@ a {
 }
 
 /* =========== features ============ */
-.features{
+.features {
   margin-top: 70px;
 }
-.features .feature-body{
+.features .feature-body {
   max-width: 1024px;
   padding: 60px 0;
 }
-.features-top .title{
+.features-top .title {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.features .heading-lv2{
+.features .heading-lv2 {
   width: 577px;
+  line-height: 1.33;
   margin-bottom: 18px;
 }
-.features .desc{
+.features .desc {
   width: 590px;
+  line-height: 30px;
 }
-.features .features-list-item{
+.features .features-list-item {
   margin-top: 80px;
   margin-right: 146px;
   display: flex;
 }
-.features-list-item .title{
-  color: #0D1111;
-  font-size: 2.0rem;
+.features-list-item .title {
+  color: #0d1111;
+  font-size: 2rem;
   font-weight: 600;
   margin-top: 26px;
   width: 160px;
-} 
-.features-list-item .content{
+}
+.features-list-item .content {
   margin-top: 16px;
-  color: #9DA6A5;
+  color: #9da6a5;
   width: 168px;
   font-size: 1.6rem;
   line-height: 1.69; /* 168.75% */
 }
-.item-features.item2  {
+.item-features.item2 {
   margin-left: 209px;
 }
-.item-features.item3{
+.item-features.item3 {
   margin-left: 200px;
 }
-.features-list-item .item-features:nth-of-type(n+2) .content{
+.features-list-item .item-features:nth-of-type(n + 2) .content {
   width: 223px;
+}
+
+/* ============popular============== */
+.populars {
+  margin-top: 10px;
+}
+.populars .populars-body {
+  padding: 60px 0;
+}
+.polular-top .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.polular-top .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+.polular-top .desc.content {
+  width: 525px;
+  color: #767e7e;
+  line-height: 1.78; /* 177.778% */
+}
+.polular-top .links {
+  color: var(--color-net);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.popular-list {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-list .content-block-item {
+  position: relative;
+  margin-top: 79px;
+}
+.popular-list .descb {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  opacity: 0.65;
+  background: #d0efed;
+  object-fit: cover;
+}
+.popular-list .info-content {
+  position: absolute;
+  left: 17px;
+  bottom: -124px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  padding: 28px 82px 29px 25px;
+}
+.popular-list .heading-lv2 {
+  font-size: 2.2rem;
+}
+.popular-list .prices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  width: 88px;
+  height: 33px;
+}
+.popular-list .prices .desc {
+  font-size: 1.6rem;
+}
+.popular-list .desc.content {
+  font-size: 1.4rem;
+  height: 20px;
+  width: 260px;
+}
+.popular-list .course-class-month {
+  display: flex;
+  margin: 18px 0 0 -10px;
+}
+.popular-list .course-class-month .desc::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-net);
+  margin: 0 10px 0;
 }
