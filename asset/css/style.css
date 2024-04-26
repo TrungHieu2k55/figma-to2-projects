@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
+:root{
+  --color-net : #1EBFC1;
+}
 html {
   font-size: 62.5%;
 }
@@ -26,16 +28,21 @@ a {
 }
 .heading-lv1 {
   color: #0d1111;
-  font-size: 62px;
+  font-size: 6.2rem;
   font-weight: 700;
   line-height: 1.16; /* 116.129% */
+}
+.heading-lv2 {
+  color: #0D1111;
+  font-size: 4.2rem;
+  font-weight: 700;
 }
 .buttons {
   width: 186px;
   line-height: 68px;
   border: none;
   border-radius: 14px;
-  background: #1ebfc1;
+  background: var(--color-net);
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
@@ -97,14 +104,14 @@ a {
   color: cyan;
   margin-left: 24px;
   border-radius: 6px;
-  border: 1px solid #1ebfc1;
-  color: #1ebfc1;
+  border: 1px solid var(--color-net);
+  color: var(--color-net);
   font-weight: 600;
   text-align: center;
 }
 
 .btns .btn-dn:hover {
-  background-color: #1ebfc1;
+  background-color: var(--color-net);
   color: white;
   transition: 0.3s;
 }
@@ -286,11 +293,61 @@ a {
   margin-left: -7px;
   width: 33px;
   height: 33px;
-  background-color: #1ebfc1;
+  background-color: var(--color-net);
   border-radius: 50%;
 }
 .hero-img .number-stu .desc-info {
   color: #fff;
   padding: 12px 6px;
   text-align: center;
+}
+
+/* =========== features ============ */
+.features{
+  margin-top: 70px;
+}
+.features .feature-body{
+  max-width: 1024px;
+  padding: 60px 0;
+}
+.features-top .title{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.features .heading-lv2{
+  width: 577px;
+  margin-bottom: 18px;
+}
+.features .desc{
+  width: 590px;
+}
+.features .features-list-item{
+  margin-top: 80px;
+  margin-right: 146px;
+  display: flex;
+}
+.features-list-item .title{
+  color: #0D1111;
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-top: 26px;
+  width: 160px;
+} 
+.features-list-item .content{
+  margin-top: 16px;
+  color: #9DA6A5;
+  width: 168px;
+  font-size: 1.6rem;
+  line-height: 1.69; /* 168.75% */
+}
+.item-features.item2  {
+  margin-left: 209px;
+}
+.item-features.item3{
+  margin-left: 200px;
+}
+.features-list-item .item-features:nth-of-type(n+2) .content{
+  width: 223px;
 }
