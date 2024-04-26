@@ -443,3 +443,22 @@ a {
   background-color: var(--color-net);
   margin: 0 10px 0;
 }
+
+/* ============.countdown ==================== */
+.countdown {
+  margin-top: 140px;
+  /* background-color: cyan; */
+  padding: 65px 0;
+}
+.body-coutdown {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 862px;
+  height: 131px;
+  margin-left: 156px;
+}
+.body-coutdown .heading-lv1 {
+  line-height: normal;
+  margin-bottom: 11px;
+}
