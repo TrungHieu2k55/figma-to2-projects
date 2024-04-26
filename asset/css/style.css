@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/*============== common =============== */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100%-48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*============== head =============== */
+.header {
+}
+
+.header.fixed {
+  position: sticky;
+  top: -44px;
+  z-index: 1;
+}
+
+.header .body {
+  padding: 52px 0 8px;
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  width: 127px;
+  height: 37px;
+  object-fit: cover;
+}
+.header .nav {
+  margin-left: auto;
+}
+.header .nav ul {
+  display: flex;
+}
+.header .nav a {
+  display: flex;
+  align-items: center;
+  color: #2f3a3b;
+  padding: 8px 19.5px;
+}
+
+.header .btn-link {
+  margin-left: 177.5px;
+  color: #494949;
+  text-align: center;
+}
+.header .btn-link:hover,
+.nav .active :hover {
+  color: #494949;
+  text-align: center;
+  text-shadow: 1px 0 black;
+}
+.header .btn-dn {
+  min-width: 108px;
+  line-height: 46px;
+  padding: 12px 24px;
+  color: cyan;
+  margin-left: 24px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btns .btn-dn:hover {
+  background-color: #1ebfc1;
+  color: white;
+  transition: 0.3s;
+}
