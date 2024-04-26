@@ -20,11 +20,36 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
+.desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+.heading-lv1 {
+  color: #0d1111;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.129% */
+}
+.buttons {
+  width: 186px;
+  line-height: 68px;
+  border: none;
+  border-radius: 14px;
+  background: #1ebfc1;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.buttons:hover {
+  /* cursor: pointer; không cần trong thẻ a*/
+  opacity: 0.9; /* độ mờ */
+}
 /*============== head =============== */
 .header {
+  background-color: #fff;
 }
-
 .header.fixed {
   position: sticky;
   top: -44px;
@@ -82,4 +107,190 @@ a {
   background-color: #1ebfc1;
   color: white;
   transition: 0.3s;
+}
+/*============== hero ================ */
+.hero .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 0 79px;
+}
+
+.hero .body .desc.title {
+  color: #767e7e;
+  font-size: 1.4rem;
+}
+.hero .heading-lv1 {
+  margin-top: 18px;
+  width: 458px;
+}
+.hero .desc {
+  margin-top: 46px;
+  width: 374px;
+  color: #9da6a5;
+  line-height: 1.78; /* 177.778% */
+}
+.hero .ative {
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.hero .play-button {
+  margin-left: 50px;
+  width: 62px;
+  height: 62px;
+  border: none;
+  border-radius: 62px;
+  background: #fff;
+  box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .play-button:hover {
+  background: #eee;
+  box-shadow: 0px 0px 0px 0px rgba(196, 26, 134, 0.5);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hero-img {
+  position: relative;
+}
+.hero-img .img-words-learner {
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+
+.hero-img .course {
+  position: absolute;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  left: -40px;
+  top: 140px;
+}
+
+.hero-img .body-course {
+  display: flex;
+  padding: 17px 25px 18px;
+  align-items: center;
+}
+
+.hero-img .img-icon-courses {
+  position: relative;
+  width: 36px;
+  height: 40px;
+  margin-right: 16px;
+}
+.hero-img .icon-course {
+  position: absolute;
+  left: 4px;
+  bottom: 8px;
+}
+.hero .desc-info {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hero-img .schedules {
+  position: absolute;
+  bottom: 48px;
+  left: -65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-img .body-schedules {
+  padding: 16px 25px 23px;
+  background: #fff;
+  text-align: center;
+  width: 124px;
+  height: 132px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero-img .body-schedules .bar {
+  display: inline-block;
+  width: 74px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+  position: relative;
+  margin-top: 14px;
+  text-align: left;
+}
+.hero-img .bar .bar-desc1 {
+  display: inline-block;
+  width: 39px;
+  height: 6px;
+  border-radius: 3px;
+  background: #fb9899;
+  position: absolute;
+}
+.hero-img .bar .bar-desc2 {
+  display: inline-block;
+  width: 51px;
+  height: 6px;
+  border-radius: 3px;
+  background: #fb9899;
+  position: absolute;
+}
+.hero-img .bar .bar-desc3 {
+  display: inline-block;
+  width: 33px;
+  height: 6px;
+  border-radius: 3px;
+  background: #fb9899;
+  position: absolute;
+}
+.hero-img .bar.bar1 {
+  display: inline-block;
+  width: 33px;
+  height: 6px;
+  border-radius: 3px;
+  width: 26px;
+  height: 6px;
+}
+
+.hero-img .active-student {
+  position: absolute;
+  bottom: 41px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero-img .body-student {
+  padding: 17px 35px 17px;
+}
+.hero-img .avatar-student {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.hero-img .avatar {
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.hero-img .number-stu {
+  display: inline-block;
+  margin-left: -7px;
+  width: 33px;
+  height: 33px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+}
+.hero-img .number-stu .desc-info {
+  color: #fff;
+  padding: 12px 6px;
+  text-align: center;
 }
