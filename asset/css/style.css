@@ -462,3 +462,104 @@ a {
   line-height: normal;
   margin-bottom: 11px;
 }
+
+/* =============feedback================= */
+.feedback {
+  margin-top: 139px;
+  background-color: cyan;
+}
+.feedback-body {
+  padding: 60px 0;
+  position: relative;
+}
+.feedback-left .desc {
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+  width: 419px;
+}
+.feedback-left .readers {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+.feedback-left .heading-lv3 {
+  color: #070707;
+  font-weight: 500;
+}
+.feedback-left .heading-lv3::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  margin: 5px 5px 5px 0;
+}
+.feedback-left .readers .desc {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 4px;
+}
+.feedback-left .button-transfer {
+  display: flex;
+  margin-top: 52px;
+}
+.feedback-left .transfer {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #2ac9bf;
+  margin-right: 30px;
+}
+.feedback-left .transfer:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+.feedback-body .avatar-insta {
+  object-fit: cover;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+}
+.feedback-body .avatar-insta-1 {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+  top: 37px;
+  right: 443px;
+}
+.feedback-body .avatar-insta-2 {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  position: absolute;
+  top: 19px;
+  right: 0;
+}
+.feedback-body .avatar-insta-3 {
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  position: absolute;
+  top: 107px;
+  right: 171px;
+}
+.feedback-body .avatar-insta-4 {
+  position: absolute;
+  bottom: 29px;
+  right: 32px;
+}
+.feedback-body .avatar-insta-5 {
+  position: absolute;
+  bottom: 0;
+  right: 311px;
+}
+.feedback-body .avatar-insta-6 {
+  position: absolute;
+  bottom: 145px;
+  right: 601px;
+}
