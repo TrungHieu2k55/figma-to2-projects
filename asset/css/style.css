@@ -466,7 +466,7 @@ a {
 /* =============feedback================= */
 .feedback {
   margin-top: 139px;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 .feedback-body {
   padding: 60px 0;
@@ -562,4 +562,23 @@ a {
   position: absolute;
   bottom: 145px;
   right: 601px;
+}
+
+/* ================admit================= */
+.admit {
+  margin-top: 107px;
+  background: #def6f5;
+}
+.body-admit {
+  padding: 76px 0 86px;
+  display: flex;
+  align-items: center;
+}
+.body-admit .heading-lv2 {
+  margin-bottom: 18px;
+  min-height: 63px;
+}
+.body-admit .buttons {
+  margin-left: 410px;
+  margin-top: 20px;
 }
