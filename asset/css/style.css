@@ -15,6 +15,7 @@ body {
 /*============== common =============== */
 a {
   text-decoration: none;
+  padding: 0;
 }
 .main-content {
   width: 1170px;
@@ -581,4 +582,42 @@ a {
 .body-admit .buttons {
   margin-left: 410px;
   margin-top: 20px;
+}
+
+/* ================footer================ */
+.footer-body {
+}
+.foot-top {
+  padding: 131px 0 0;
+  display: flex;
+  align-self: start;
+  justify-content: space-between;
+}
+.foot-top .logo {
+  width: 127px;
+  height: 37px;
+}
+
+.foot-top .heading-lv3 {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+.foot-top li a {
+  display: flex;
+  align-items: center;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.foot-top li {
+  margin-top: 18px;
+}
+.foot-top .icon-soical {
+  margin-right: 9px;
+}
+.foot-in .desc {
+  text-align: center;
+  margin-top: 80px;
 }
