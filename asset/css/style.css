@@ -15,7 +15,6 @@ body {
 /*============== common =============== */
 a {
   text-decoration: none;
-  padding: 0;
 }
 .main-content {
   width: 1170px;
@@ -65,6 +64,7 @@ a {
 }
 
 .header .body {
+  background-color: #fff;
   padding: 52px 0 8px;
   display: flex;
   align-items: center;
@@ -429,7 +429,7 @@ a {
 .popular-list .desc.content {
   font-size: 1.4rem;
   height: 20px;
-  width: 260px;
+  width: 290px;
 }
 .popular-list .course-class-month {
   display: flex;
@@ -620,4 +620,5 @@ a {
 .foot-in .desc {
   text-align: center;
   margin-top: 80px;
+  padding-bottom: 30px;
 }
